@@ -50,15 +50,15 @@ Create your migrations.
 
 ## Audition
 
-- `Audition#role` returns an instance of role associated with this audition
-- `Audition#call_back` will change the the hired attribute to `true`
+#- `Audition#role` returns an instance of role associated with this audition
+#- `Audition#call_back` will change the the hired attribute to `true`
 
 ## Roles
 
-- `Role#auditions` returns all of the auditions associated with this role 
-- `Role#actors` returns an array of names from the actors associated with this role
-- `Role#locations` returns an array of locations from the auditions associated with this role
-- `Role#lead` returns the first instance of the audition that was hired for this role or returns a string 'no actor has been hired for this role'
+#- `Role#auditions` returns all of the auditions associated with this role 
+#- `Role#actors` returns an array of names from the actors associated with this role
+#- `Role#locations` returns an array of locations from the auditions associated with this role
+#- `Role#lead` returns the first instance of the audition that was hired for this role or returns a string 'no actor has been hired for this role'
 - `Role#understudy` returns the second instance of the audition that was hired for this role or returns a string 'no actor has been hired for understudy for this role'
 
 
